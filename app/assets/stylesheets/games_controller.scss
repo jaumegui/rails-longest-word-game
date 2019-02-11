@@ -1,3 +1,41 @@
 // Place all the styles related to the GamesController controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.container {
+  padding: 50px 200px;
+  background-color: cornsilk;
+  border-radius: 3px;
+}
+
+#letter-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 50px 0px;
+
+  li {
+    font-size: 80px;
+  }
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-top: 40px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.page {
+ background-color: wheat;
+}
+
+.input.form-control.btn.btn-primary:hover {
+    background-color: #4985D5;
+    transition: 0s;
+    pointer-events: bounding-box;
+}
